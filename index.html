@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <title>Landing page</title>
@@ -55,12 +56,13 @@
     
     <main id="content">
         <section id="home">
+            <div class="shape"></div>
             <div id="cta">
-                <h1 id="title">
+                <h1 class="title">
                     Ofertas imperdíveis toda semana, só no 
                     <span>Bom Delícia!</span>
                 </h1>
-                <p id="description">
+                <p class="description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Excepturi ipsa illo odio recusandae
                 </p>
@@ -73,8 +75,8 @@
                     <a href="tel:+71992546793" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
-                            (71) 99254-6793
                         </button>
+                        (71) 99254-6793
                     </a>
                 </div>
 
@@ -91,7 +93,16 @@
                 </div>
             </div>
             <div id="banner">
-                
+                <img src="src/images/cestadealimentos.png">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossas Ofertas especiais</h3>
+            
+            <div id="products">
+                <div class="product"></div>
             </div>
         </section>
     </main>
